@@ -19,13 +19,10 @@ const jsLoaders = () => {
         }
     }
     ]
-
     if (isDev) {
-
     }
     return loaders
 }
-
 console.log('IS PROD ', isProd)
 console.log('IS DEV ', isDev)
 
